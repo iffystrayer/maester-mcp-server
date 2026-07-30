@@ -1,5 +1,7 @@
 # Maester MCP Server
 
+![CI](https://github.com/iffystrayer/maester-mcp-server/actions/workflows/ci.yml/badge.svg)
+
 An MCP (Model Context Protocol) server that exposes [Maester](https://maester.dev) **2.2** — the Microsoft 365 / Entra / Defender / Active Directory / GitHub security test framework — as tools for AI agents.
 
 Connect Claude, GitHub Copilot, or any MCP-compatible agent to your tenant's security posture and ask, for example:
