@@ -124,6 +124,14 @@ Restart Claude Desktop after saving.
 
 ---
 
+## Ready-to-use prompts
+
+Copy-paste prompts for common scenarios — posture check, drift detection, AI
+agent audit, CA simulation — each mapped to the tools it fires. See
+**[prompts.md](./prompts.md)**.
+
+---
+
 ## Available tools
 
 | Tool | What it does |
