@@ -4,7 +4,7 @@
  *
  * This does not touch a tenant or run PowerShell. It verifies the server
  * process boots, speaks MCP, and exposes its tool surface. Run with:
- *   node test/smoke.mjs
+ *   node smoke.mjs
  */
 
 import { spawn } from "child_process";
@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 import path from "path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const serverPath = path.join(__dirname, "..", "src", "index.js");
+const serverPath = path.join(__dirname, "index.js");
 
 const EXPECTED_TOOLS = [
   "run_maester_tests",
