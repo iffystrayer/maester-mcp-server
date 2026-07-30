@@ -107,7 +107,7 @@ npm install
   "mcpServers": {
     "maester": {
       "command": "node",
-      "args": ["/absolute/path/to/maester-mcp-server/src/index.js"],
+      "args": ["/absolute/path/to/maester-mcp-server/index.js"],
       "env": {
         "AZURE_TENANT_ID": "your-tenant-id",
         "AZURE_CLIENT_ID": "your-client-id",
